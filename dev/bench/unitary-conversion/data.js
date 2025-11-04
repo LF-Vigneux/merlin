@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762188363055,
+  "lastUpdate": 1762253937170,
   "repoUrl": "https://github.com/merlinquantum/merlin",
   "entries": {
     "Benchmark": [
@@ -108,6 +108,114 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.000007191514450924631",
             "extra": "mean: 144.73049534266215 usec\nrounds: 3006"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "90058728+ben9871@users.noreply.github.com",
+            "name": "Benjamin Stott",
+            "username": "ben9871"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a77a37b7a1826add10f9d446ef120c6c5789203c",
+          "message": "Merge pull request #70 from merlinquantum/bugfix/packaging\n\nfix docs dependency for pypi",
+          "timestamp": "2025-11-04T11:56:57+01:00",
+          "tree_id": "64a91c9c4c536a58ea3ef7a5e70eacbd91270b92",
+          "url": "https://github.com/merlinquantum/merlin/commit/a77a37b7a1826add10f9d446ef120c6c5789203c"
+        },
+        "date": 1762253936515,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_fullparameter_benchmark[cpu-10]",
+            "value": 167.36028720244008,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004225345156321054",
+            "extra": "mean: 5.975133149660491 msec\nrounds: 147"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_fullparameter_benchmark[cpu-20]",
+            "value": 41.21821247307161,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00011050711406856074",
+            "extra": "mean: 24.261120024390014 msec\nrounds: 41"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_fullparameter_benchmark[cpu-40]",
+            "value": 10.028927921084433,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005308306348210813",
+            "extra": "mean: 99.71155519999684 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_fullparameter_benchmark[cpu-100]",
+            "value": 1.5573909682216833,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0040587473380753495",
+            "extra": "mean: 642.0995244000011 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_quantumreservoir_benchmark[cpu-10]",
+            "value": 1765.7169910462,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000016632960751776776",
+            "extra": "mean: 566.3421743523535 usec\nrounds: 1583"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_quantumreservoir_benchmark[cpu-20]",
+            "value": 916.8393300941926,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0001051087165429488",
+            "extra": "mean: 1.090703645858281 msec\nrounds: 833"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_quantumreservoir_benchmark[cpu-40]",
+            "value": 487.3835177069846,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000022905451943762625",
+            "extra": "mean: 2.0517722977271484 msec\nrounds: 440"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_quantumreservoir_benchmark[cpu-100]",
+            "value": 196.46227242645622,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00007775046852841773",
+            "extra": "mean: 5.0900357999999235 msec\nrounds: 185"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_noparameter_benchmark[cpu-10]",
+            "value": 24645.293392796397,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00000450517942469325",
+            "extra": "mean: 40.575698737361805 usec\nrounds: 11880"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_noparameter_benchmark[cpu-20]",
+            "value": 23142.276364321788,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000005657099629280015",
+            "extra": "mean: 43.21096093821133 usec\nrounds: 10445"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_noparameter_benchmark[cpu-40]",
+            "value": 19545.683332263245,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0000048938843746877265",
+            "extra": "mean: 51.16219182520683 usec\nrounds: 2471"
+          },
+          {
+            "name": "benchmarks/benchmark_unitary_conversion.py::test_noparameter_benchmark[cpu-100]",
+            "value": 6866.989790532363,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00001015493623538066",
+            "extra": "mean: 145.62421534086408 usec\nrounds: 3520"
           }
         ]
       }
