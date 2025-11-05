@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762253939011,
+  "lastUpdate": 1762342778410,
   "repoUrl": "https://github.com/merlinquantum/merlin",
   "entries": {
     "Benchmark": [
@@ -342,6 +342,177 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.0009432875053320002",
             "extra": "mean: 129.36168024999796 msec\nrounds: 8"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "94611630+CassNot@users.noreply.github.com",
+            "name": "Cassandre Notton",
+            "username": "CassNot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8929e8383a044816615efb10b33ac00913000088",
+          "message": "Merge pull request #74 from merlinquantum/bugfix/packaging\n\nadded missing packages",
+          "timestamp": "2025-11-05T06:37:46-05:00",
+          "tree_id": "04d767a9eab53f82709564a69e1564af7bbca635",
+          "url": "https://github.com/merlinquantum/merlin/commit/8929e8383a044816615efb10b33ac00913000088"
+        },
+        "date": 1762342775702,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-64-config0]",
+            "value": 109.50086715762644,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00021347667469396813",
+            "extra": "mean: 9.132347769999853 msec\nrounds: 100"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-64-config1]",
+            "value": 47.2296888083308,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0006209337625636807",
+            "extra": "mean: 21.173122780000426 msec\nrounds: 50"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-64-config2]",
+            "value": 18.634931498634355,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00354401095176642",
+            "extra": "mean: 53.662660368420674 msec\nrounds: 19"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-128-config0]",
+            "value": 96.80049130662856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000749983156653395",
+            "extra": "mean: 10.330526080000624 msec\nrounds: 100"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-128-config1]",
+            "value": 41.38662969142865,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0005773877937640923",
+            "extra": "mean: 24.162392720929972 msec\nrounds: 43"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-128-config2]",
+            "value": 16.590066948108856,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0013036235219052775",
+            "extra": "mean: 60.27703222222335 msec\nrounds: 18"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-256-config0]",
+            "value": 84.66713903232764,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0003959880899285065",
+            "extra": "mean: 11.810957727273385 msec\nrounds: 88"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-256-config1]",
+            "value": 34.41862771698056,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00042384853453555915",
+            "extra": "mean: 29.054034583332506 msec\nrounds: 36"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-256-config2]",
+            "value": 13.460705438016745,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0025945069827403413",
+            "extra": "mean: 74.29031149999942 msec\nrounds: 14"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-512-config0]",
+            "value": 67.15978212203993,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00031962735653784776",
+            "extra": "mean: 14.889863671428268 msec\nrounds: 70"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-512-config1]",
+            "value": 25.697246579812827,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0004247643516906763",
+            "extra": "mean: 38.91467503703597 msec\nrounds: 27"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_large_batch_robustness_benchmark[cpu-512-config2]",
+            "value": 9.971407216429675,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0032438438991270395",
+            "extra": "mean: 100.28674772727376 msec\nrounds: 11"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_extreme_values_robustness_benchmark[cpu-config0]",
+            "value": 17.863547257826525,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002822067890705281",
+            "extra": "mean: 55.97992300000056 msec\nrounds: 19"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_extreme_values_robustness_benchmark[cpu-config1]",
+            "value": 8.10345924114639,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00415837823561602",
+            "extra": "mean: 123.40408833333389 msec\nrounds: 9"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_extreme_values_robustness_benchmark[cpu-config2]",
+            "value": 3.4174758795594946,
+            "unit": "iter/sec",
+            "range": "stddev: 0.003645425076793724",
+            "extra": "mean: 292.61362339999835 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_numerical_stability_benchmark[cpu-config0]",
+            "value": 8.214604827886893,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004816559430838414",
+            "extra": "mean: 121.73440122222384 msec\nrounds: 9"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_numerical_stability_benchmark[cpu-config1]",
+            "value": 3.620048593374811,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0016098923539340294",
+            "extra": "mean: 276.23938579999674 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_memory_efficiency_benchmark[cpu-config0]",
+            "value": 1.7303464325312037,
+            "unit": "iter/sec",
+            "range": "stddev: 0.004513410991727164",
+            "extra": "mean: 577.9189538000026 msec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_memory_efficiency_benchmark[cpu-config1]",
+            "value": 0.7424587536687632,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00741188625303166",
+            "extra": "mean: 1.3468761666000035 sec\nrounds: 5"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_hybrid_model_stress_benchmark[cpu-config0]",
+            "value": 17.984767441519583,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0012115450557998613",
+            "extra": "mean: 55.6026094444459 msec\nrounds: 18"
+          },
+          {
+            "name": "benchmarks/benchmark_robustness.py::test_hybrid_model_stress_benchmark[cpu-config1]",
+            "value": 7.643443598351314,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002658514054770479",
+            "extra": "mean: 130.83108250000032 msec\nrounds: 8"
           }
         ]
       }
