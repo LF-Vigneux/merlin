@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762342747383,
+  "lastUpdate": 1762783982154,
   "repoUrl": "https://github.com/merlinquantum/merlin",
   "entries": {
     "Benchmark": [
@@ -282,6 +282,100 @@ window.BENCHMARK_DATA = {
             "unit": "iter/sec",
             "range": "stddev: 0.00006132385410577928",
             "extra": "mean: 4.385070000000165 msec\nrounds: 224"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "90058728+ben9871@users.noreply.github.com",
+            "name": "Benjamin Stott",
+            "username": "ben9871"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a88c36bf22970a3da63e4f7e4f8a2c6a0c0be8a2",
+          "message": "Merge pull request #91 from merlinquantum/docs_0.2\n\nDocs 0.2",
+          "timestamp": "2025-11-10T15:11:36+01:00",
+          "tree_id": "5c6c6fedc288f2d374f3f4d974ddb21b1e939401",
+          "url": "https://github.com/merlinquantum/merlin/commit/a88c36bf22970a3da63e4f7e4f8a2c6a0c0be8a2"
+        },
+        "date": 1762783981278,
+        "tool": "pytest",
+        "benches": [
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_no_bunching_computation_benchmark[cpu-config0]",
+            "value": 215.30517921126867,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00009193086704257278",
+            "extra": "mean: 4.644570110497657 msec\nrounds: 181"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_no_bunching_computation_benchmark[cpu-config1]",
+            "value": 108.38706503902797,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00010244865344083853",
+            "extra": "mean: 9.226193177570776 msec\nrounds: 107"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_no_bunching_computation_benchmark[cpu-config2]",
+            "value": 60.80502485707711,
+            "unit": "iter/sec",
+            "range": "stddev: 0.000733971654852097",
+            "extra": "mean: 16.446009229508764 msec\nrounds: 61"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_no_bunching_computation_benchmark[cpu-config3]",
+            "value": 40.40060418982443,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00022179097300488999",
+            "extra": "mean: 24.75210507499952 msec\nrounds: 40"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_fock_space_comparison_benchmark[cpu-config0]",
+            "value": 40.18474899194475,
+            "unit": "iter/sec",
+            "range": "stddev: 0.0002523568749571681",
+            "extra": "mean: 24.88506274359099 msec\nrounds: 39"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_fock_space_comparison_benchmark[cpu-config1]",
+            "value": 15.04087623544219,
+            "unit": "iter/sec",
+            "range": "stddev: 0.02663644560689999",
+            "extra": "mean: 66.48548823529369 msec\nrounds: 17"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_fock_space_comparison_benchmark[cpu-config2]",
+            "value": 8.91091634141044,
+            "unit": "iter/sec",
+            "range": "stddev: 0.005311739534440652",
+            "extra": "mean: 112.2219042000026 msec\nrounds: 10"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_fock_space_comparison_benchmark[cpu-config3]",
+            "value": 5.491758991403344,
+            "unit": "iter/sec",
+            "range": "stddev: 0.002154140503872516",
+            "extra": "mean: 182.09102066667052 msec\nrounds: 6"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_compute_with_keys_benchmark[cpu-config0]",
+            "value": 440.7900809348589,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00004072706699995648",
+            "extra": "mean: 2.268653591022577 msec\nrounds: 401"
+          },
+          {
+            "name": "benchmarks/benchmark_no_bunching.py::test_compute_with_keys_benchmark[cpu-config1]",
+            "value": 223.93094393419648,
+            "unit": "iter/sec",
+            "range": "stddev: 0.00006794294071570998",
+            "extra": "mean: 4.4656624155251015 msec\nrounds: 219"
           }
         ]
       }
